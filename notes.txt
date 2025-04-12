@@ -1,0 +1,15 @@
+NOTES TO MYSELF FOR PROJECTS
+
+- EDIT THE PACKAGE.JSON FILE FIRST BEFORE RUNNING `npm init -y` AND `npm i`!!!
+
+- Remove utility packages `lodash` if not needed.
+
+- Remove packages `bcryptjs`, `cloudinary`, `imagekit`，`jsonwebtoken`, or `puppeteer` if not needed.
+
+- Can remove any util in the utils directory if not needed.
+
+- Uncomment from .gitignore.
+
+- Remove middleware directory if not doing any authentication.
+
+- Remove pipelines directory if not using them or even MongoDB for database.
