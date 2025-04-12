@@ -22,9 +22,9 @@ dotenv.config();
 	api_secret:process.env.CLOUDINARY_API_SECRET,
 });*/
 /*const imagekit = new ImageKit({
-	urlEndpoint: process.env.IMAGE_KIT_ENDPOINT,
-	publicKey: process.env.IMAGE_KIT_PUBLIC_KEY,
-	privateKey: process.env.IMAGE_KIT_PRIVATE_KEY
+	urlEndpoint: process.env.IMAGEKIT_ENDPOINT,
+	publicKey: process.env.IMAGEKIT_PUBLIC_KEY,
+	privateKey: process.env.IMAGEKIT_PRIVATE_KEY
 });*/
 
 const app = express();
